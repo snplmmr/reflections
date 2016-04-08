@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+	To initialize a repository you go to the desired location (folder that you want to become a repository) and type <git init> into the terminal
+
+	This creates a .git file in your folder that we can view with <ls -a>
+	We need to initialize a repository to set up the enviroment that we need to make commits and start version control on those files. 
+
+	
