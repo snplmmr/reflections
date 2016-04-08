@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	Using diff allowed me to quickly identify the lines that were different in the original codes without having to scan each line by line. 
+
+	This save both my eyes and my patients. What is particularly usefule about diff is the ability to compare lines side by side. 
+
+	Having the lines marked and knowing what version each line was in seems like it would be a life saver for larger files. 
+
+	Its easier to parce things when they are localized in this manner. 
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	Having the entire history of a file allows you to go back and compare solutions to the same task. What worked, what didn't, what was fast, what was slow. 
+
+	Learning from your previous work is one of best ways to improve it. It also makes it faster to correct bugs and re-use chunks of code. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	The obvious pros for chosing when to commit are the small number of versions. Auto saving would create too many of these. The flexibility that this creates is the main benifit that I can see at the moment. 
+
+	A con would be the fact that it give the oportunity for human error. You may endup changing too much before you think it is worth it to commit. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	
+	Git was designed for use in coding where multiple files come together to make one working program. Unlike most reports, a change in one of the files can drastically affect the others. So it makes sense that any good version control method would allow for grouped vc. 
+
+How can you use the commands git log and git diff to view the history of files?
+	
+	Enter the directory with the file you want to use. After that you Type git log into the command window and it will load all of the git commits associated to that repository. Scrolling through to find the file you want to examine. press q to exit
+
+	After finding the desired file to compare you then type git diff commitid1 commitid2 and hit <enter>
+
+	You can scroll through the code and compare the additions(+) to the deletions(-). press q to exit 
+
+How might using version control make you more confident to make changes that could break something?
+
+	Youre less likely to be bothered by the possibility of breaking things if you know for certain that there is a good way to go back and check the differences in the previous working versions and correct any new erroes that might arise. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I'm probably ready to try looking at python code to start working toward Data sci and machine learning stuff. But I also want to look at LaTex files for fun. 
+
+
+
+
+
+
