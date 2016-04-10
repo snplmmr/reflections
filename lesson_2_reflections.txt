@@ -4,4 +4,35 @@ What happens when you initialize a repository? Why do you need to do it?
 	This creates a .git file in your folder that we can view with <ls -a>
 	We need to initialize a repository to set up the enviroment that we need to make commits and start version control on those files. 
 
-	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	My first answer is starting to feel pretty wrong so here is an updated version based on my current understanding. Commits are stored in a repository. 
+
+	If we want to look at a commit we load it into the staging area. The working directory is a physical copy of this file on the computer, I can modify it as normal and then save it. It now differs from the staging area version. These are like two photos one version(staging area ver) and a version I have shopped (the working directory version) 
+
+	The working directory is where all of the physical editing takes place. The staging area is where our most recent commit version has been stored(this may be empty if the repository in new). The repository is an archive of all of the all the code we've ever commited. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	We have tools like git diff to compare the files in the staging area and the working directory
+
+	We also have git diff -- staged to compare the statging area to the original commit that we are looking at. 
+
+	By using these tools we can compare the editied version of code with the original both at the time we decide it is ready to stage and right before we finalize a commit. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	The main thing that I can currently see branches being useful for would be experimental modifications to code. Either in regards to adding a new feature while maintaing a working version of the code or changing a major component of the working code (rethinking a way to do something)
+
+	Branches help by making sure that you can work on the code while simultaniously having a working version of the code that you can access. 
+
+How do the diagrams help you visualize the branch structure?
+
+	Seeing the generational tree for a git commit structure helps to visualize at what points in time the code branches. You can easily see what the parent commit was and what the last update to the code had been at that point. This makes it easier to understand the complex structure that makes up git commits. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do? 
+
+	We get a combined version of the file that contains the changes to both files and is that the head of the brach that we wanted to continue. The green lines represent the master branch and the red lines the side branch. When the red lines point toward a node with green lines we see that we have merged the files into one branch. 
+
+
+
