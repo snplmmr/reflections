@@ -34,5 +34,13 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	We get a combined version of the file that contains the changes to both files and is that the head of the brach that we wanted to continue. The green lines represent the master branch and the red lines the side branch. When the red lines point toward a node with green lines we see that we have merged the files into one branch. 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+	One pro of gits automatic merge is that it allows us to add features nicely without breaking the code. When two codes have sections that aren't present in the orignial code we know they are likey added on purpose, same with removals. 
+
+	If two codes are different in the same palces we need to be more careful and review the differences manually to figure out which one is the actual one we need to use. 
+
+	One con of git automatically merging file is that it is really easy to mess up your commit log if you are not careful and can easily make strange or redundant additions to your code. This is more down to experience to fix than anything. 
+
+	
 
