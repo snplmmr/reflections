@@ -15,3 +15,20 @@ Describe the differences between forks, clones, and branches. When would you use
 	In addition to existing in our github repository collection we also are able to push pull from it without having to create a remote. This is all done for us by git when we tell github to fork a repository. 
 
 	The special thing that differs between forks and clones is that forks link back to the original repository that they we're copied from (giving the original author some credit) where as cloning merely duplicates the repository and nothing more. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It allows you to see what types of changes have been made to the file since you last updated the remote and it gives you time to explore these changes before combining the two different states of the repository. 
+
+	It makes sure that you don't get to far out of sync with the current state of a project. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Honestly at this point any other method of colaborations looks like something our ancestors would have done. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Making changes in a separate branch allows me to work on features that are not ready to be merged into the main master branch while allowing other people to continue working on other parts of the code simultainiously. This allows work to progress much faster. 
+
+	The benifit to constantly updating the master branch would be that this complicated syncing process using pull requests wouldn't have to exist, but with the trade of being that work on the code would progress much slower since we would need to make sure that each update would actually work before moving onto the next step. 
+
